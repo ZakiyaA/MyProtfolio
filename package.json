@@ -2,7 +2,7 @@
   "name": "my_resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZakiyaA.github.io/my_resume/",
+  "homepage": "http://ZakiyaA.github.io/my_resume/",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@emotion/react": "^11.8.2",
