@@ -10,7 +10,7 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 export default {
     name: 'Zakiya Alfughi',
-    title: 'Full stack developer',
+    title: 'Full Stack Web Developer',
     email: 'zakiyaalfughi@gmail.com',
     address: 'Toronto',
     Phone: "289-8302107",
