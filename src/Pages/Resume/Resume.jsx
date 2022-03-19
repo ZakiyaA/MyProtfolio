@@ -26,7 +26,7 @@ const Resume = () => {
 
     emailjs.sendForm('service_2xa61zo', 'template_lr0xaaz', form.current, 'iNIkmuuAxddsD7M4l')
       .then((result) => {
-          alert("ddddd")
+          alert("Thanks for Contacting!!! Email has been sent")
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
