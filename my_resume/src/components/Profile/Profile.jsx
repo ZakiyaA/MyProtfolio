@@ -39,17 +39,17 @@ const Profile = () => {
         <Typography className='title'>{resumeData.title}</Typography>
       </div>
       <figure className='profile_image'>
-        <img src={require('../../assets/images/my_image.jpg')} alt='' />
+        <img src={require('../../assets/images/my_image.jpeg')} alt='' />
       </figure>
       <div className='profile_information'>
         <CustomTimeLine icon={<PersonOutlineIcon />} >
           < CustomTimelineItem title='Name' text={resumeData.name} />
           < CustomTimelineItem title='Email' text={resumeData.email} />
           < CustomTimelineItem title='Address' text={resumeData.address} />
-          < CustomTimelineItem title='Phone' text={resumeData.Phone} />
-          {/* {Object.keys(resumeData.socials).map((key) => (
+
+          {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
-          ))} */}
+          ))}
 
         </CustomTimeLine>
 

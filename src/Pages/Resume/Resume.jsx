@@ -26,7 +26,7 @@ const Resume = () => {
 
     emailjs.sendForm('service_2xa61zo', 'template_lr0xaaz', form.current, 'iNIkmuuAxddsD7M4l')
       .then((result) => {
-
+          alert("ddddd")
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
@@ -132,15 +132,13 @@ const Resume = () => {
       </Grid>
 
       {/* Skills */}
-      <Grid container
-       
-        className='section graybg pb_45 p_50' >
+      <Grid container className='section graybg pb_45 p_50' >
 
         <Grid item xs={12}>
           <Grid container
           justify='space-between' spacing={3}>
           {resumeData.skills.map(skill => (
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={6}>
             <Paper elevation={0} className='skill'>
               <Typography variant='h6' className='skill_title'>
                 {skill.title}

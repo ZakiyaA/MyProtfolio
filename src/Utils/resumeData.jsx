@@ -3,12 +3,16 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WebIcon from '@mui/icons-material/Web';
 import EditOffIcon from '@mui/icons-material/EditOff';
 import NetworkCheckIcon from '@mui/icons-material/NetworkCheck';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import BiotechRoundedIcon from '@mui/icons-material/BiotechRounded';
+// import Behance from 'react-bootstrap-icons/Behance';
 
 export default {
     name: 'Zakiya Alfughi',
     title: 'Full stack developer',
     email: 'zakiyaalfughi@gmail.com',
     address: 'Toronto',
+    Phone: "289-8302107",
     about: 'Competent and committed Web Designer and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with a comprehensive knowledge of designing and developing the layout, visual appearance, and usability of a website. Possesses a proven track record of completing projects from the concept through to design, testing, and handover.  Also, having a passion for delivering valuable data through analytical functions and data retrieval methods.',
 
     socials: {
@@ -24,11 +28,11 @@ export default {
             icon: <LinkedInIcon />
         },
 
-        // GitHub: {
-        //     link: 'https://github.com/ZakiyaA',
-        //     text: 'gitHub',
-        //     icon: <GitHubIcon />
-        // },
+        Telegram: {
+            link: 'https://web.telegram.im',
+            text: 'Telegram',
+            icon: <TelegramIcon />
+        },
 
         // GitHub: {
         //     link: 'https://github.com/ZakiyaA',
@@ -94,19 +98,19 @@ educations: [
 ],
 services: [
     {
-        title: 'Web Developer',
-        description: 'B.Sc. in Electrical and Computer Engineering',
+        title: 'Web Developement',
+        description: 'Builds, designs, and maintains all websites and software applications.',
         icon: <WebIcon/>,
     },
     {
-        title: 'Web Developer',
-        description: 'B.Sc. in Electrical and Computer Engineering',
+        title: 'Graphic Design',
+        description: 'Design logos, letterheads, brochures, presentations, and website elements.',
         icon: <EditOffIcon/>,
 
     },  {
-        title: 'Web Developer',
-        description: 'B.Sc. in Electrical and Computer Engineering',
-        icon: <NetworkCheckIcon/>,
+        title: 'Web Testing',
+        description: 'Creating and testing applications for the website',
+        icon: <BiotechRoundedIcon/>,
     }
 ],
 skills: [
@@ -115,8 +119,10 @@ skills: [
       description:  [
           'ReactJS',
           'JavaScript',
-           'Bootstrap',
-           'Material UI',
+          'SASS',
+          'Bootstrap',
+          'Material UI',
+          'JQuery'
       ],
     },
 
@@ -126,7 +132,8 @@ skills: [
             'NodeJS',
             'Express',
              'Rails',
-             'Git',
+             
+             
         ],
       },
 
@@ -135,11 +142,12 @@ skills: [
         description:  [
             'PostgreSQL',
             'MongoDB',
+            'MySQL'
         ],
       },
 
       {
-        title: 'SOURCE CONTROL' ,
+        title: 'VERSION CONTROL' ,
         description:  [
             'GIT',
             'GitHub',
@@ -185,6 +193,20 @@ projects: [
         {link: 'https://www.linkedin.com/in/zakiya-alfughi/', icon: <LinkedInIcon />},
     ],
 },
+
+// {
+//     tag: 'Graphic Design',
+//     image: 'https://raw.githubusercontent.com/ZakiyaA/schedule/master/docs/ezgif.com-gif-maker.gif',
+//     description: 'React based project to create meetings for students to connect with mentors in real-time. Tech Stack: React, Axios, Classnames, Normalize, Storybook' ,
+//     title: 'Scheduler',
+//     caption: 'A short ------',
+//     links: [
+//         {link: 'https://www.behance.net/gallery/111640661/-2020', icon: <Behance />},
+//         // {link: 'https://www.linkedin.com/in/zakiya-alfughi/', icon: <LinkedInIcon />},
+//     ],
+// },
+
+
 
 ]
 };

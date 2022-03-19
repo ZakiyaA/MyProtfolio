@@ -4,6 +4,8 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import HomeIcon from '@mui/icons-material/Home';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import { useLocation } from 'react-router-dom';
+import ReactDOM from 'react-dom';
+import TelegramLoginButton from 'react-telegram-login';
 import './styles.css';
 
 import {
@@ -15,9 +17,10 @@ import {
 import resumeData from '../../Utils/resumeData';
 import CustomButton from '../Button/Button';
 
+
 const Header = () => {
   const location = useLocation();
-  const pathName = location?.pathname; //still not working
+  const pathName = location?.pathname; //working
   console.log('pathName', pathName)
   return (
     <Navbar expand="lg" sticky='top' className='header'>
@@ -26,7 +29,6 @@ const Header = () => {
       <HomeIcon/>
       </Navbar.Brand>
      </Nav.Link>
-
       <Navbar.Toggle />
       <Navbar.Collapse >
         <Nav className='header_left'>
@@ -47,6 +49,7 @@ const Header = () => {
               {resumeData.socials[key].icon}
             </a>
             ))}
+
             <CustomButton text={'Hire Me'} icon={<TelegramIcon />} />
           </div>
 
