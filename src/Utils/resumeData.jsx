@@ -6,6 +6,7 @@ import NetworkCheckIcon from '@mui/icons-material/NetworkCheck';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import BiotechRoundedIcon from '@mui/icons-material/BiotechRounded';
 // import Behance from 'react-bootstrap-icons/Behance';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 export default {
     name: 'Zakiya Alfughi',
@@ -81,7 +82,7 @@ educations: [
     {
         university: 'Lighthouse Labs,  Vancouver, Canada ' ,
         date: 'Nov. 2021​ - Mar. 2022​​' ,
-        degree: 'Full Stack Web Development'
+        degree: 'ck Web Development'
     },
 
     {
@@ -194,17 +195,17 @@ projects: [
     ],
 },
 
-// {
-//     tag: 'Graphic Design',
-//     image: 'https://raw.githubusercontent.com/ZakiyaA/schedule/master/docs/ezgif.com-gif-maker.gif',
-//     description: 'React based project to create meetings for students to connect with mentors in real-time. Tech Stack: React, Axios, Classnames, Normalize, Storybook' ,
-//     title: 'Scheduler',
-//     caption: 'A short ------',
-//     links: [
-//         {link: 'https://www.behance.net/gallery/111640661/-2020', icon: <Behance />},
-//         // {link: 'https://www.linkedin.com/in/zakiya-alfughi/', icon: <LinkedInIcon />},
-//     ],
-// },
+{
+    tag: 'Graphic Design',
+    image: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/123f09111640661.6005e2b878bcb.jpg',
+    description: 'Using Illustrator to design logo, brochures and leeter for shoes company' ,
+    title: 'Rose Shoes',
+    caption: 'A short ------',
+    links: [
+        {link: 'https://www.behance.net/gallery/111640661/-2020', icon: <ArrowCircleDownIcon />},
+        // {link: 'https://www.linkedin.com/in/zakiya-alfughi/', icon: <LinkedInIcon />},
+    ],
+},
 
 
 
