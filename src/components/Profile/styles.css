@@ -17,11 +17,11 @@
 }
 
 .profile_name .title {
-  font-size: 20px;
+  font-size: 13px;
   color: #777;
 }
 
-.profile_image img{
+.profile_image {
     margin-top: -10px;
     -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
     clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);

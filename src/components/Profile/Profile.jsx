@@ -46,7 +46,8 @@ const Profile = () => {
           < CustomTimelineItem title='Name' text={resumeData.name} />
           < CustomTimelineItem title='Email' text={resumeData.email} />
           < CustomTimelineItem title='Address' text={resumeData.address} />
-          < CustomTimelineItem title='Phone' text={resumeData.Phone} />
+          < CustomTimelineItem title='Address' text={resumeData.Phone} />
+
           {/* {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
           ))} */}

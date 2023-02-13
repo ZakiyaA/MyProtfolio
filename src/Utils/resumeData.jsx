@@ -5,14 +5,14 @@ import EditOffIcon from '@mui/icons-material/EditOff';
 import NetworkCheckIcon from '@mui/icons-material/NetworkCheck';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import BiotechRoundedIcon from '@mui/icons-material/BiotechRounded';
-// import Behance from 'react-bootstrap-icons/Behance';
+// import Image from '/assets/images/logo.png';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 export default {
     name: 'Zakiya Alfughi',
     title: 'Full Stack Web Developer',
     email: 'zakiyaalfughi@gmail.com',
-    address: 'Toronto',
+    address: 'Whitby/Toronto',
     Phone: "289-8302107",
     about: 'Competent and committed Web Designer and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with a comprehensive knowledge of designing and developing the layout, visual appearance, and usability of a website. Possesses a proven track record of completing projects from the concept through to design, testing, and handover.  Also, having a passion for delivering valuable data through analytical functions and data retrieval methods.',
 
@@ -159,7 +159,7 @@ skills: [
 
 projects: [
     {
-        tag: 'Express',
+        tag: 'FullStack',
         image: 'https://raw.githubusercontent.com/ZakiyaA/tinyapp/main/docs/Tinyapp-urls-Page.jpg',
         description: 'RESTful URL Shortening service.\n' + 
         'Tech Stack: Express, Node' ,
@@ -172,7 +172,7 @@ projects: [
     },
 
    {
-       tag: 'Express',
+       tag: 'FullStack',
        image: 'https://raw.githubusercontent.com/ZakiyaA/tweeter/master/docs/Tweeter.gif',
        description: 'Twitter clone powered by AJAX. Tech Stack: Express, jQuery, MongoDB, Node',
        title: 'Tweeter',
@@ -184,7 +184,7 @@ projects: [
    },
 
    {
-    tag: 'React',
+    tag: 'FullStack',
     image: 'https://raw.githubusercontent.com/ZakiyaA/schedule/master/docs/ezgif.com-gif-maker.gif',
     description: 'React based project to create meetings for students to connect with mentors in real-time. Tech Stack: React, Axios, Classnames, Normalize, Storybook' ,
     title: 'Scheduler',
@@ -207,7 +207,18 @@ projects: [
     ],
 },
 
-
+{
+    tag: 'FullStack',
+    image: 'https://raw.githubusercontent.com/ZakiyaA/jungle-rails/master/docs/hamePage.png',
+    description: 'A mini e-commerce application built with Rails 4.2. ' + 
+    'Tech Stack: Rails , PostgreSQL, Stripe' ,
+    title: 'jungle-rails',
+    caption: 'A short ------',
+    links: [
+        {link: 'https://github.com/ZakiyaA/jungle-rails', icon: <GitHubIcon />},
+        {link: 'https://www.linkedin.com/in/zakiya-alfughi/', icon: <LinkedInIcon />},
+    ],
+},
 
 ]
 };
