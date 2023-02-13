@@ -55,7 +55,7 @@ const Profile = () => {
         </CustomTimeLine>
 
         <div className='button_container'>
-          <a href={'https://drive.google.com/file/d/1HAYu7DpUXnAEEpGPyDDfjpCDPgMdR3mA/view?usp=sharing'} target="_blank" rel="noopener noreferrer" download>
+          <a href={'https://drive.google.com/file/d/1BBSkIguKvhoC0SN_T_LItIaIGKEeX4zd/view?usp=sharing'} target="_blank" rel="noopener noreferrer" download>
             <CustomButton text={'Download Resume'} icon={<GetAppIcon />} /></a>
         </div>
       </div>

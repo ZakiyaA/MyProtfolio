@@ -1,5 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LanguageIcon from '@mui/icons-material/Language';
 import WebIcon from '@mui/icons-material/Web';
 import EditOffIcon from '@mui/icons-material/EditOff';
 import NetworkCheckIcon from '@mui/icons-material/NetworkCheck';
@@ -159,7 +160,7 @@ skills: [
 
 projects: [
     {
-        tag: 'FullStack',
+        tag: 'Full Stack',
         image: 'https://raw.githubusercontent.com/ZakiyaA/tinyapp/main/docs/Tinyapp-urls-Page.jpg',
         description: 'RESTful URL Shortening service.\n' + 
         'Tech Stack: Express, Node' ,
@@ -172,7 +173,7 @@ projects: [
     },
 
    {
-       tag: 'FullStack',
+       tag: 'Full Stack',
        image: 'https://raw.githubusercontent.com/ZakiyaA/tweeter/master/docs/Tweeter.gif',
        description: 'Twitter clone powered by AJAX. Tech Stack: Express, jQuery, MongoDB, Node',
        title: 'Tweeter',
@@ -184,7 +185,7 @@ projects: [
    },
 
    {
-    tag: 'FullStack',
+    tag: 'Full Stack',
     image: 'https://raw.githubusercontent.com/ZakiyaA/schedule/master/docs/ezgif.com-gif-maker.gif',
     description: 'React based project to create meetings for students to connect with mentors in real-time. Tech Stack: React, Axios, Classnames, Normalize, Storybook' ,
     title: 'Scheduler',
@@ -196,19 +197,19 @@ projects: [
 },
 
 {
-    tag: 'Graphic Design',
-    image: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/123f09111640661.6005e2b878bcb.jpg',
-    description: 'Using Illustrator to design logo, brochures and leeter for shoes company' ,
-    title: 'Rose Shoes',
+    tag: 'Front End',
+    image: 'https://github.com/ZakiyaA/coffee-store-design/blob/master/img/homePage.png',
+    description: 'small project to apply some css techniques such as position, z-index along with some Bootstrap properties.' ,
+    title: 'Coffe Shop',
     caption: 'A short ------',
     links: [
-        {link: 'https://www.behance.net/gallery/111640661/-2020', icon: <ArrowCircleDownIcon />},
-        // {link: 'https://www.linkedin.com/in/zakiya-alfughi/', icon: <LinkedInIcon />},
+        {link: 'https://github.com/ZakiyaA/coffee-store-design', icon: <GitHubIcon />},
+        {link: 'https://zakiyaa.github.io/coffee-store-design/', icon: <LanguageIcon />},
     ],
 },
 
 {
-    tag: 'FullStack',
+    tag: 'Full Stack',
     image: 'https://raw.githubusercontent.com/ZakiyaA/jungle-rails/master/docs/hamePage.png',
     description: 'A mini e-commerce application built with Rails 4.2. ' + 
     'Tech Stack: Rails , PostgreSQL, Stripe' ,
