@@ -6,7 +6,7 @@ import EditOffIcon from '@mui/icons-material/EditOff';
 import NetworkCheckIcon from '@mui/icons-material/NetworkCheck';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import BiotechRoundedIcon from '@mui/icons-material/BiotechRounded';
-// import Image from '/assets/images/logo.png';
+import homePage from '../assets/images/homePage.png';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 export default {
@@ -198,7 +198,7 @@ projects: [
 
 {
     tag: 'Front End',
-    image: 'https://github.com/ZakiyaA/coffee-store-design/blob/master/img/homePage.png',
+    image: 'https://zakiyaa.github.io/coffee-store-design/img/products-01.jpg',
     description: 'small project to apply some css techniques such as position, z-index along with some Bootstrap properties.' ,
     title: 'Coffe Shop',
     caption: 'A short ------',

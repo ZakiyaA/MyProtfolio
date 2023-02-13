@@ -193,22 +193,6 @@ const Resume = () => {
                     Submit
                     </button>
                 </form>
-       
-
-              {/* <FormControl ref={form} onSubmit={sendEmail}>
-                <Grid item xs={12} sm={6}>
-                  <TextField fullWidth name='user_name' label='Name' variant="standard"/>
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <TextField fullWidth name='user_email' label='E-mail' variant="standard"/>
-                </Grid>
-                <Grid item xs={12} >
-                  <TextField fullWidth name='message' label='Message' variant="standard" multiline rows={4} />
-                </Grid>
-                <Grid item xs={12}>
-                  <CustomButton text='submit'   />
-                </Grid>
-                </FormControl> */}
               </Grid>
             </Grid>
           </Grid>
